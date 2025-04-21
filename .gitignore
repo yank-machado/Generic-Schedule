@@ -1,0 +1,44 @@
+
+*__pycache__
+# Ambientes virtuais
+*venv/
+*env/
+django-dev/
+
+# Arquivos de cache Python
+*__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log
+*.log
+
+# Arquivos de banco de dados SQLite
+*.sqlite3
+
+# Arquivos de IDE e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de distribuição / empacotamento
+dist/
+build/
+*.egg-info/
+
+# Arquivos de teste e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pasta do projeto
+*media/
